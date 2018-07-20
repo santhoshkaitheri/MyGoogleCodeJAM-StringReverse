@@ -16,10 +16,10 @@ public class CodeJAMStringReverse
 {
 	public static void main(String... args) throws IOException
 	{
-		File file = new File("F:\\PROJECTS\\GOOGLE-CODE-JAM\\StringReverse\\B-small-practice.in");
-		File outFile = new File("F:\\PROJECTS\\GOOGLE-CODE-JAM\\StringReverse\\B-small-practice.out");
-		//File file = new File("F:\\PROJECTS\\GOOGLE-CODE-JAM\\StringReverse\\B-large-practice.in");
-		//File outFile = new File("F:\\PROJECTS\\GOOGLE-CODE-JAM\\StringReverse\\B-large-practice.out");
+		File file = new File("input\\B-small-practice.in");
+		File outFile = new File("input\\B-small-practice.out");
+		//File file = new File("input\\B-large-practice.in");
+		//File outFile = new File("input\\B-large-practice.out");
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		BufferedWriter bw = new BufferedWriter(new FileWriter(outFile));
 		printReversedStrings(br, bw);
